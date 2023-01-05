@@ -1,1 +1,3 @@
 # tarastekel
+
+This is the source code for my cloud resume! This website was developed using a containerized application in a development environment, and deploying the application to the cloud. The containerized application was pushed to Docker Hub and an AWS VPC (Virtual Private Cloud) was created with NAT (Network Address Translation) gateways, security groups, and an application load balancer. An ECS (Elastic Container Service) cluster is used to manage the Docker containers, and a task definition and service were created to run and maintain the application. The domain name was registered in Route 53, Amazon's DNS service, and a record set was created to map the domain name to the ECS cluster. 
