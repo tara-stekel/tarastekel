@@ -1,0 +1,138 @@
+body{
+    margin: 1cm;
+    padding: 1cm;
+    background: url(bg.jpg) no-repeat;
+    background-size: cover;
+  }
+  .highlight {
+    background-image: linear-gradient(to right, #F27121cc, #E94057cc, #8A2387cc);
+    border-radius: 6px;
+    padding: 3px 6px;
+  }
+  hr {
+    height:1px;
+    border-width:0;
+    background-color:#000000;
+    margin-top: 1cm;
+  }
+  .emphasized { font-style: italic; }
+  .box{
+    width: 650px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 0%;
+    color: white;
+    font-family: Georgia,Times,Times New Roman,serif; 
+  }
+  .box2{
+    width: 650px;
+    background: rgb(255, 255, 255);
+    padding: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: white;
+    font-family: Georgia,Times,Times New Roman,serif; 
+  }
+  .box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  .box3-img{
+    margin: 1cm;
+    width: 375px;
+    height: 250px;
+  }
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: .5cm;
+  }
+  .box h5{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin: .5cm;
+  }
+  .box p{
+    text-align: justify;
+
+    line-height: 120%;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+  }
+  .box li a:hover{
+    color: #b9b9b9;
+  }
+  .box2 h1{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: .2px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+    margin-bottom: .8cm;
+  }
+  .box2 h2{
+    margin:0;
+    padding:0;
+    text-align: left;
+    font-size: 18px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .box2 h3{
+    margin:0;
+    padding:0;
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: .4px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+  }
+  .box2 h4{
+    text-align: left;
+    font-size: 22px;
+    letter-spacing: .2px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+  }
+  .box2 h5{
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: .2px;
+    line-height: 200%;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    margin-bottom: .8cm;
+  }
+  
+  .box2-img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
